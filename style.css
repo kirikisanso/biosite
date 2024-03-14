@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-image: url(https://bogatyr.club/uploads/posts/2023-03/thumbs/1679006929_bogatyr-club-p-fon-programmista-foni-instagram-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  border: 4px solid rgb(255, 110, 14);
+  height: auto;
+  text-align: center;
+}
+
+.picter img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid rgb(255, 110, 14);
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.picter img:hover {
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+.name h1 {
+  color: white;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.name h1:hover {
+  transform: scale(1.3);
+  transition: 2s;
+  cursor: pointer;
+}
+
+b {
+  color: rgb(255, 110, 14);
+}
+
+.title h1 {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  transition: 2s;
+}
+
+.title h1:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 2s;
+}
+
+.links {
+  display: block;
+  border: 4px solid white;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.links:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 10px rgba(218, 119, 7, 0.884);
+  transition: 1s;
+  border-radius: 20xp 0px 20px 0px;
+  transform: scale(1.2);
+}
